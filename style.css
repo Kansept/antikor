@@ -1,0 +1,59 @@
+/*
+Theme Name: Antikor
+Version: 105.1
+Description: 
+Author: kansept
+Author URI: https://github.com/Kansept
+*/
+
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+h2 {
+ font-weight: 900;
+ margin-bottom: 25px;
+}
+.section-promo {
+    background: #FF7B1C;
+}
+.section-news {
+    background-color: #151515;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: #fff;
+    
+}
+.home-news__date {
+    color: #646464;
+}
+.home-news__more {
+    color: #646464;
+}
+.home-news__desc {
+    border-bottom: 1px solid #252525;
+}
+.footer {
+    padding-top: 150px;
+    padding-bottom: 135px;
+}
+
+ul.footer__menu li {
+    padding: 5px 0px;
+}
+.footer-menu__item {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+ul.footer__list li {
+    padding: 7px 0px;
+}
+.footer__phone {
+    color: #FF7B1C !important;
+    text-decoration: none !important;
+}
+.footer__bottom {
+    width: 100%;
+    height: 68px;
+    background: #151515;
+}
