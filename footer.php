@@ -1,6 +1,28 @@
 <?php wp_footer(); ?>
 
 </body>
+
+<div class="modal" tabindex="-1" id="questionModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<?php $menu = wp_get_nav_menu_items('MainMenu'); ?>
 <footer>
     <div class="container">
         <div class="row footer">
@@ -9,8 +31,9 @@
             </div>
             <div class="col-md-3">
                 <ul class="list-unstyled footer__menu">
-                    <li><a href="" class="footer-menu__item">О компании</a></li>
-                    <li><a href="" class="footer-menu__item">О компании</a></li>
+                    <?php foreach($menu as $menuItem): ?>
+                        <li><a href="<?= $menuItem->url ?>" class="footer-menu__item"><?= $menuItem->title ?></a></li>
+                    <?php endforeach ?>
                 </ul>
             </div>
             <div class="col-md-3">

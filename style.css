@@ -11,11 +11,59 @@ body {
 }
 
 h2 {
+    font-family: "RF Dewi Expanded";
  font-weight: 900;
  margin-bottom: 25px;
 }
+.nav-top {
+    background-color: #151515;
+    color: #fff;
+    height: 115px;
+}
+.nav-top__phone-list {
+    list-style: none;
+    border-left: 1px solid #fff;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.nav-top__phone-list a {
+    color: #fff;
+}
+.navbar-nav-top {
+    text-transform: uppercase;
+}
+.navbar-nav-top li {
+    margin-left: 20px;
+}
+
+.hero-banner {
+    padding: 100px 0px;
+    background-color: #151515;
+    background: url('images/hero.jpg');
+    background-position: center;
+    color: #fff;
+    height: 830px;
+    background-repeat: no-repeat;
+}
+.hero-banner__text {
+    font-family: "RF Dewi Expanded";
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 50px;
+}
 .section-promo {
     background: #FF7B1C;
+}
+.section-promo h2 {
+    color: #fff;
+}
+.section-promo__top-bg {
+    background: url(images/promo-bg-top.png);
+    background-position: center;
+    background-size: cover;
+    height: 30px;
+    margin-top: -30px;
 }
 .section-news {
     background-color: #151515;
@@ -49,11 +97,91 @@ ul.footer__list li {
     padding: 7px 0px;
 }
 .footer__phone {
+    font-family: "RF Dewi Expanded";
     color: #FF7B1C !important;
     text-decoration: none !important;
+    font-size: 18px;
 }
 .footer__bottom {
     width: 100%;
     height: 68px;
     background: #151515;
+}
+
+.text-orange {
+    color: #FF7B1C !important;
+}
+
+.promo-item__list {
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+.promo-item {
+    position: relative;
+    background-color: #fff;
+    margin: 20px 0px;
+}
+
+.promo-item__text {
+    font-family: "RF Dewi Expanded";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+
+.promo-item__wrap {
+    position: relative;
+    padding: 60px 60px 150px 60px;
+    font-size: 35px;
+    font-weight: 900;
+    height: 100%;
+}
+
+.promo-item--half {
+    height: 265px;
+}
+
+.promo-item--fill {
+    height: 560px;
+}
+
+.promo-item__more {
+    position: absolute;
+    bottom: 44px;
+    left: 44px;
+    width: 58px;
+    height: 58px;
+    background: url(images/arrow-down.png);
+    background-size: cover;
+}
+
+.promo-item-bg {
+    background-position-y: bottom !important;
+    background-position-x: right !important;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-main {
+    font-family: RF Dewi Expanded;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 151.2%;
+    text-align: center;
+    color: #000000;
+    padding: 17px 37px;
+    border-radius: 0;
+    background: linear-gradient(91.53deg, #E0650D 20.93%, #FF8A00 93.77%);
+}
+
+.btn-main:hover {
+    background: #FF900C;
 }

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RF Dewi';
+    src: local('RF Dewi Black'), local('RF-Dewi-Black'),
+        url('RFDewi-Black.woff2') format('woff2'),
+        url('RFDewi-Black.woff') format('woff'),
+        url('RFDewi-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
